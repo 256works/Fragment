@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="프레임워크 헤더">
+      <UniqueIdentifier>{80300ce0-e3c9-410b-9e10-34e89024c9a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="프레임워크 소스">
+      <UniqueIdentifier>{7364082a-cb29-4fd1-b125-11284440cb5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="게임오브젝트 소스">
+      <UniqueIdentifier>{2f85fd3e-3eba-4e00-8f2e-ea91eb3cb651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="게임오브젝트 헤더">
+      <UniqueIdentifier>{cb248978-5aff-4420-a415-418630fbd2c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformerGameEngine.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>프레임워크 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>프레임워크 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>프레임워크 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyController.h">
+      <Filter>프레임워크 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>프레임워크 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="commonFunction.h">
+      <Filter>프레임워크 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteInfo.h">
+      <Filter>프레임워크 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="gameRes.h">
+      <Filter>프레임워크 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeController.h">
+      <Filter>프레임워크 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>프레임워크 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundController.h">
+      <Filter>프레임워크 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>프레임워크 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="fpoint.h">
+      <Filter>프레임워크 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_TitleManager.h">
+      <Filter>게임오브젝트 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_logo.h">
+      <Filter>게임오브젝트 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_GameManager.h">
+      <Filter>게임오브젝트 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_Player.h">
+      <Filter>게임오브젝트 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_GameBackground.h">
+      <Filter>게임오브젝트 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_BulletEffect.h">
+      <Filter>게임오브젝트 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_Bullet.h">
+      <Filter>게임오브젝트 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_Explosion.h">
+      <Filter>게임오브젝트 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_Enemy.h">
+      <Filter>게임오브젝트 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_EnemyGene.h">
+      <Filter>게임오브젝트 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_HugeExplosion.h">
+      <Filter>게임오브젝트 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_PlayerWave.h">
+      <Filter>게임오브젝트 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_WaveManager.h">
+      <Filter>게임오브젝트 헤더</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformerGameEngine.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>프레임워크 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>프레임워크 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>프레임워크 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyController.cpp">
+      <Filter>프레임워크 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeController.cpp">
+      <Filter>프레임워크 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>프레임워크 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundController.cpp">
+      <Filter>프레임워크 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>프레임워크 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_TitleManager.cpp">
+      <Filter>게임오브젝트 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_logo.cpp">
+      <Filter>게임오브젝트 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_GameManager.cpp">
+      <Filter>게임오브젝트 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_Player.cpp">
+      <Filter>게임오브젝트 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_GameBackground.cpp">
+      <Filter>게임오브젝트 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_Explosion.cpp">
+      <Filter>게임오브젝트 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_BulletEffect.cpp">
+      <Filter>게임오브젝트 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_Bullet.cpp">
+      <Filter>게임오브젝트 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_Enemy.cpp">
+      <Filter>게임오브젝트 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_EnemyGene.cpp">
+      <Filter>게임오브젝트 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_HugeExplosion.cpp">
+      <Filter>게임오브젝트 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_PlayerWave.cpp">
+      <Filter>게임오브젝트 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_WaveManager.cpp">
+      <Filter>게임오브젝트 소스</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PlatformerGameEngine.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="PlatformerGameEngine.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
